@@ -44,7 +44,7 @@ module "blog_sg" {
   egress_rules        = ["all-all"]
   egress_cidr_blocks  = ["0.0.0.0/0"]
 
-  vpc_id = module.blog_vpc.default_vpc_id
+  vpc_id = module.blog_vpc.vpc_id
 }
 
 resource "aws_instance" "blog" {
