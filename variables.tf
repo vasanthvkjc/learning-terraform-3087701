@@ -14,7 +14,7 @@ variable "ami_filter" {
     owner = "979382823631"
   }
 }
-variable "Environment" {
+variable "environment" {
   type = object({
     name           = string
     network_prefix = string
