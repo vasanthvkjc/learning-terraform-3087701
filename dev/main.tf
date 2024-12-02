@@ -1,3 +1,3 @@
-module "this_lb_dns_name" {
+module "dev" {
   source = "../module/blog"
 }
